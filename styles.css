@@ -1,0 +1,28 @@
+img {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    max-width: 8%;
+    height: auto;
+}
+
+nav ul {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav li.not-current {
+    color:#DC9ABC;
+
+}
+nav li.current {
+    color: #C1457E;
+}
