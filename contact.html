@@ -6,8 +6,9 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="contact_page">
+<body class="contact-page">
     <img src="assets/coding_logo.png" alt="Our Coding Website Logo">
+    <h1>Contact Us!</h1>
     <nav>
         <ul>
             <li class="not-current">Home</li>
@@ -17,5 +18,13 @@
             <li class="not-current">Sign up</li>
         </ul>
     </nav>
+    <div class="form-container">
+        <p>Contact Form</p>
+        <form action="/signup" method="get">
+            <input type="text" id="name" name="name" placeholder="Name"/>
+            <input type="email" id="email" name="email" placeholder="Email"/>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number"/>
+        </form>
+    </div>
 </body>
 </html>

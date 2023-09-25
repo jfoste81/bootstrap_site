@@ -1,4 +1,9 @@
-.contact_page img {
+.contact-page {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ECECEC;
+}
+
+.contact-page img {
     display: block;
     position: absolute;
     top: 10px;
@@ -7,22 +12,54 @@
     height: auto;
 }
 
-.contact_page nav ul {
+.contact-page h1 {
     position: absolute;
-    top: 15px;
+    top: 100px;
+    left: 130px;
+    color: #C1457E;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.contact-page nav ul {
+    position: absolute;
+    top: 20px;
     right: 10px;
 }
 
-.contact_page nav ul li{
+.contact-page nav ul li{
     list-style-type: none;
     display: inline-block;
     margin-right: 30px;
+    font-weight: 100;
+    font-size: 15px;
 }
 
-.contact_page nav li.not-current {
+.contact-page nav li.not-current {
     color:#DC9ABC;
 
 }
-.contact_page nav li.current {
+.contact-page nav li.current {
     color: #C1457E;
+}
+
+.contact-page .form-container {
+    width: 400px; 
+    margin: 0 auto; 
+    margin-top: 300px;
+    padding: 20px; 
+    border: 1px solid rgba(220, 154, 188, .4);
+    background-color: rgba(217,217,217,.1); 
+    text-align: center;
+}
+
+.contact-page p {
+    text-align: left;
+}
+
+.contact-page .form-container input {
+    display: block;
+    margin-bottom: 15px;
+    text-indent: 5px;
 }
