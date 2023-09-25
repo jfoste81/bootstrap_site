@@ -1,4 +1,4 @@
-img {
+.contact_page img {
     display: block;
     position: absolute;
     top: 10px;
@@ -7,22 +7,22 @@ img {
     height: auto;
 }
 
-nav ul {
+.contact_page nav ul {
     position: absolute;
     top: 15px;
     right: 10px;
 }
 
-nav ul li{
+.contact_page nav ul li{
     list-style-type: none;
     display: inline-block;
     margin-right: 30px;
 }
 
-nav li.not-current {
+.contact_page nav li.not-current {
     color:#DC9ABC;
 
 }
-nav li.current {
+.contact_page nav li.current {
     color: #C1457E;
 }
