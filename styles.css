@@ -1,82 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 .light-pink {
-    color: #DC9ABC;
+  color: #dc9abc;
 }
 
 #active {
-    color: #C1457E;
+  color: #c1457e;
 }
 
 .contact-page {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .contact-page img {
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    max-width: 8%;
-    height: auto;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  max-width: 8%;
+  height: auto;
 }
 
 .contact-page h1 {
-    position: absolute;
-    top: 100px;
-    left: 130px;
-    color: #C1457E;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    font-size: 40px;
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  color: #c1457e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 40px;
 }
 
 .contact-page nav ul {
-    position: absolute;
-    top: 20px;
-    right: 10px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
 
-.contact-page nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 30px;
-    font-weight: 100;
-    font-size: 15px;
+.contact-page nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .contact-page nav li.not-current {
-    color:#DC9ABC;
-
+  color: #dc9abc;
 }
 .contact-page nav li.current {
-    color: #C1457E;
+  color: #c1457e;
 }
 
 .contact-page .form-container {
-    width: 400px; 
-    margin: 0 auto; 
-    margin-top: 300px;
-    padding: 20px; 
-    border: 1px solid rgba(220, 154, 188, .4);
-    background-color: rgba(217,217,217,.1); 
-    text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 300px;
+  padding: 20px;
+  border: 1px solid rgba(220, 154, 188, 0.4);
+  background-color: rgba(217, 217, 217, 0.1);
+  text-align: center;
 }
 
 .contact-page p {
-    text-align: left;
+  text-align: left;
 }
 
 .contact-page .form-container input {
-    display: block;
-    margin-bottom: 15px;
-    text-indent: 5px;
+  display: block;
+  margin-bottom: 15px;
+  text-indent: 5px;
 }
