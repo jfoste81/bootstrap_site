@@ -79,3 +79,48 @@ body {
   margin-bottom: 15px;
   text-indent: 5px;
 }
+
+.heading-story {
+  text-align: center;
+  color: #c1457e
+}
+
+.heading-why {
+  color: #c1457e;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+h2 {
+  font-size: 20;
+}
+
+.about-body, .pick-choices, .linkedin {
+  font-family: 'inter'; font-size: 18px;
+}
+
+.about-p, .linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ol.pick-choices {
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.linkedin {
+  margin-top: 50px;
+
+}
