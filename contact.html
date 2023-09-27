@@ -1,3 +1,12 @@
+<!--
+  ITSC-3155-091
+  Bootstrap Website
+  Authors:
+  Santiago Orozco Buri
+  Nicole Delgado 
+  Joshua Foster
+  Denny Zhang
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,10 +72,54 @@
       </header>
 
     <main>
-        <h1>Contact Us</h1>
-        <p>Please fill out the form and we will get back to you as soon as possible</p>
-        <div>
-            <p></p>
+        <h1 class="contact-header offset-1 fw-normal fs-8">Contact Us</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+              <p class="mb-2 fs-4" id="form-header">Please fill out the form and we will get back to you as soon as possible</p>
+            <form class="form-container">
+              <h4 class="mt-4 offset-1 fs-8" id="form-title">Contact Form</h4>
+              <div>
+                <div class="d-grid justify-content-center">
+                  <div class="form-group">
+                    <input type="text" class="form-control mb-4" id="exampleInputName" aria-describedby="nameHelp" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control mb-4" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="tel" class="form-control mb-4" id="exampleInputNumber" aria-describedby="numberHelp" placeholder="Phone Number">
+                  </div>
+                </div>
+                  <p class="text-center">How can we contact YOU?</p>
+                  <div class="d-block offset-5">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="emailRadio">
+                        Email
+                      </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="numberRadio">
+                        Phone Number
+                      </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <label class="form-check-label" for="bothRadio">
+                        Both
+                      </label>
+                    </div>
+                  </div>
+                <div class="form-group col-6 offset-3 mt-4 mb-4">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="What's up?"></textarea>
+                </div>
+                <div>
+                  <input class="btn btn-primary btn-lg offset-10 mb-3" id="submitBtn" type="submit" value="Submit">
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
     </main>
 

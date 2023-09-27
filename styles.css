@@ -28,6 +28,25 @@ body {
 
 }
 
+.form-container {
+  border: 2px solid rgba(220, 154, 188, .4);
+  background-color: rgba(217, 217, 217, .1);
+}
+
+.contact-header {
+  color: #C1457E;
+}
+
+#form-header {
+  color: rgba(193,69,126,.7);
+}
+
+#submitBtn {
+  background-color: #DC9ABC;
+  color: white;
+  border: #DC9ABC;
+}
+
 h2 {
   font-size: 20;
 }
