@@ -12,21 +12,27 @@ body {
   color: #dc9abc;
 }
 
-#active {
+.dark-pink {
   color: #c1457e;
 }
 
-
+#active {
+  color: #c1457e;
+}
 
 h2 {
   font-size: 20;
 }
 
-.about-body, .pick-choices, .linkedin {
-  font-family: 'inter'; font-size: 18px;
+.about-body,
+.pick-choices,
+.linkedin {
+  font-family: "inter";
+  font-size: 18px;
 }
 
-.about-p, .linkedin {
+.about-p,
+.linkedin {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,17 +42,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 ol.pick-choices {
   justify-content: center;
   align-items: center;
-
 }
-
 
 .linkedin {
   margin-top: 50px;
-
 }
